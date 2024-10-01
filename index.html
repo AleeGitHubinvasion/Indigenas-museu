@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+    <title>Indios</title>
+</head>
+<style>
+    body {
+        background-image: url(pika.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    
+    
+</style>
+<body>
+    <p id="data"></p>
+    <button onclick="mostrarData()">Mostrar Data</button>
+
+    <div class="buttons">
+        <button onclick="saudacao()">Saudação</button>
+        <button onclick="solicitarNome()">Nome do seu Indigena</button>
+    </div>
+    <div class="conteudo text-black">
+        <h1>Oque e a cultura indigena</h1>
+        A cultura indígena abarca a produção<br>
+        material e imaterial de inúmeros e distintos povos em todo o Brasil.
+        É importante destacar que não há uma cultura indígena, mas várias,<br>
+        e cada povo desenvolveu suas próprias tradições religiosas, musicais,<br>
+        de festas, artesanatos, dentre outras.<br>
+        Costumes das populações indígenas<br>
+        As diversas populações indígenas possuem costumes variados.<br>
+        Mas, na alimentação, muitas se destacam pela produção de mandioca,<br>
+        da qual produzem o beiju, e também a produção do milho, com o qual fazem pamonha.<br>
+        Constroem habitações de madeira e palha chamadas “ocas”, onde<br>
+        podem viver uma ou mais famílias. Geralmente, o líder guerreiro é o cacique,<br>
+        enquanto o chefe espiritual é o pajé.<br>
+        As principais tribos indígenas atualmente no Brasil são:<br>
+        Guarani, Ticuna, Caingangue, Macuxi, Terna, Guajajaras, Ianomâmi,<br>
+        Xavante, Pataxó e Potiguara.<br>
+    </div>
+    <section class="container my-5">
+        <h2 class="text-black">Indigenas</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img id="minhaImagem" src="indio.jpg" onmouseover="mudarImagem()" onmouseout="restaurarImagem()">
+                    <div class="card-body">
+                        <h5 class="card-title text-black">Guarani</h5>
+                        <p class="text-black">Os Guarani são um dos povos indígenas mais conhecidos do Brasil. Eles têm uma rica tradição oral, com histórias e mitos que explicam sua relação com a natureza. A mandioca é um alimento básico na dieta Guarani, e eles possuem uma profunda conexão espiritual com a terra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img id="minhaImagem2" src="ticuna.png" onmouseover="mudarImagem2()" onmouseout="restaurarImagem2()">
+                    <div class="card-body">
+                        <h5 class="card-title text-black">Ticuna</h5>
+                        <p class="text-black">Os Ticuna são um dos maiores grupos indígenas da Amazônia brasileira. Eles são conhecidos por suas habilidades em artesanato, especialmente em cestaria e cerâmica. A festa do Patauá, que celebra a colheita de um fruto típico, é uma das tradições mais importantes dessa tribo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img id="minhaImagem3" src="ianomami.png" onmouseover="mudarImagem3()" onmouseout="restaurarImagem3()">
+                    <div class="card-body">
+                        <h5 class="card-title text-black">Ianomamis</h5>
+                        <p class="text-black">Os Ianomâmi são conhecidos por sua rica cultura e por viver em uma das áreas mais remotas da Amazônia. Eles são famosos por suas complexas cerimônias e rituais que incluem danças e canções, refletindo sua relação com a natureza e os espíritos. A proteção de sua terra é uma questão vital para eles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="buttons">
+        <button onclick="saida()">Adeus!</button>
+        
+</body>
+</html>
