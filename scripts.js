@@ -18,31 +18,31 @@ function mostrarData() {
 
 
 function mudarImagem() {
-    document.getElementById("minhaImagem").src = "indio.jpg";
+    document.getElementById("minhaImagem").src = "png/indio.jpg";
 }
 
 function restaurarImagem() {
-    document.getElementById("minhaImagem").src = "guarani.png";  
+    document.getElementById("minhaImagem").src = "png/guarani.png";  
 }
 
 
 
 function mudarImagem2() {
-    document.getElementById("minhaImagem2").src = "ticuna.jpg";
+    document.getElementById("minhaImagem2").src = "png/ticuna.jpg";
 }
 
 function restaurarImagem2() {
-    document.getElementById("minhaImagem2").src = "ticuna.png";  
+    document.getElementById("minhaImagem2").src = "png/ticuna.png";  
 }
 
 
 
 function mudarImagem3() {
-    document.getElementById("minhaImagem3").src = "ianomamis2.png";
+    document.getElementById("minhaImagem3").src = "png/ianomamis2.png";
 }
 
 function restaurarImagem3() {
-    document.getElementById("minhaImagem3").src = "ianomami.png";  
+    document.getElementById("minhaImagem3").src = "png/ianomami.png";  
 }
 
 function saida() {
