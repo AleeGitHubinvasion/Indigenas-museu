@@ -1,2 +1,0 @@
-# Indigenas-museu
-INIDIOS CMAJVNHASIOFA
